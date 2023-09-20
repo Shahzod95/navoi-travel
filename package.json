@@ -1,0 +1,35 @@
+{
+  "name": "navoi_travel",
+  "version": "1.0.0",
+  "description": "This is navoi travel project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "navoi",
+    "travel",
+    "sayohat",
+    "turizm",
+    "tourism"
+  ],
+  "author": "Aktamov Shahzod",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "multer": "^1.4.5-lts.1",
+    "sequelize": "^6.32.1",
+    "sharp": "^0.32.5",
+    "sqlite3": "^5.1.6",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
